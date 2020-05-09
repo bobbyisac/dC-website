@@ -1,0 +1,42 @@
+body {
+    background-color: #16171c;
+  }
+
+.centertext {
+    text-align: center;
+    font-family: 'Open Sans';
+    margin: auto;
+  }
+
+#img1 {
+    width: 100%; 
+    height: auto;
+    
+}
+
+#button1 {
+    background-color: #ac5e4a;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+}
+@media screen and (min-width: 900px) {
+    #button1 {
+        font-size: large;
+        padding: 20px;
+    }
+}
+
+@media screen and (min-width: 401px) and (max-width: 899px) {
+    #button1 {
+        font-size: large;
+        padding: 10px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    #button1 {
+        font-size: small;
+        padding: 8px;
+    }
+}
