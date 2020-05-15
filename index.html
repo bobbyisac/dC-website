@@ -19,7 +19,14 @@
 <body>
 
     <div class='centertext'>
-      <img id="img1" src="./moving.jpg" alt="guch - Global managed marketplace for creative services" />
+      <!-- <img id="img1" src="./movingBig.jpg" alt="guch - Global managed marketplace for creative services" /> -->
+
+      <picture>
+        <source srcset="movingSmall.jpg" media="(max-width: 400px)">
+        <source srcset="movingBig.jpg">
+        <img src="movingBig.jpg" alt="guch - Global managed marketplace for creative services" style="width:100%;">
+      </picture>
+
       <a href="https://guch.me">
         <button id="button1">visit our new home</button>
       </a>
@@ -27,4 +34,4 @@
 
 </body>
 
-</html>
+</html> 

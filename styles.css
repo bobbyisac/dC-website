@@ -8,12 +8,6 @@ body {
     margin: auto;
   }
 
-#img1 {
-    width: 100%; 
-    height: auto;
-    
-}
-
 #button1 {
     background-color: #ac5e4a;
     color: #ffffff;
@@ -25,6 +19,12 @@ body {
         font-size: large;
         padding: 20px;
     }
+
+    #img1 {
+        width: 100%; 
+        height: auto;
+        
+    }
 }
 
 @media screen and (min-width: 401px) and (max-width: 899px) {
@@ -32,11 +32,23 @@ body {
         font-size: large;
         padding: 10px;
     }
+
+    #img1 {
+        width: 100%; 
+        height: auto;
+        
+    }
 }
 
 @media screen and (max-width: 400px) {
     #button1 {
         font-size: small;
         padding: 8px;
+    }
+
+    #img1 {
+        width: 100%; 
+        height: auto;
+        
     }
 }
