@@ -14,6 +14,11 @@ body {
     border: none;
     border-radius: 5px;
 }
+
+#button1:hover {
+    background-color: #353535;
+}
+
 @media screen and (min-width: 900px) {
     #button1 {
         font-size: large;
@@ -27,8 +32,9 @@ body {
     }
 }
 
-@media screen and (min-width: 401px) and (max-width: 899px) {
+@media screen and (min-width: 451px) and (max-width: 899px) {
     #button1 {
+        margin-top: 20px;
         font-size: large;
         padding: 10px;
     }
@@ -40,8 +46,9 @@ body {
     }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
     #button1 {
+        margin-top: 20px;
         font-size: small;
         padding: 8px;
     }
